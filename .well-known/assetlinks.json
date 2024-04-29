@@ -1,1 +1,19 @@
-[]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.yukselis.okuma",
+    "sha256_cert_fingerprints":
+    ["CF:A2:4D:46:DA:DF:3C:3F:56:BA:CF:3D:54:F3:D5:59:C9:4B:A4:5E:0B:53:12:C2:4D:B5:37:14:04:64:F5:C7"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.yukselis.okuma",
+    "sha256_cert_fingerprints":
+    ["09:D5:6F:B3:70:CE:2B:E5:5C:F7:12:13:BC:8B:47:6C:62:4E:A8:5B:23:65:01:5C:29:9E:70:19:E9:89:34:B5"]
+  }
+}
+]
