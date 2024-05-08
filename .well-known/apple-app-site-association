@@ -1,9 +1,11 @@
-"applinks": {
-      "apps": [],
-      "details": [
-      {
-        "appID": "UAQPAQJGSR.com.example.flutterApplink1",
-        "paths": ["*"]
-      }
-    ]
+{
+      "applinks": {
+            "apps": [],
+                  "details": [
+                  {
+                        "appID": "UAQPAQJGSR.com.example.flutterApplink1",
+                          "paths": ["*"]
+                  }
+      ]
   }
+}
