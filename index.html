@@ -17,11 +17,11 @@
 
           // Huawei Phone must come first because its UA also contains "Android"
           if (userAgent.includes("HUAWEI")) {
-            window.location.replace("https://appgallery.huawei.com/app/C101184875");
+            window.location.replace("https://appgallery.huawei.com/#/app/C104805645");
           } else if (userAgent.includes("Android")) {
-            window.location.replace("https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en&gl=US");
-          } else if (userAgent.includes("iPhone")) {
-            window.location.replace("https://apps.apple.com/us/app/telegram-messenger/id686449807");
+            window.location.replace("https://play.google.com/store/apps/details?id=com.yukselis.okuma");
+          } else if (userAgent.includes("iPhone") || userAgent.includes("iPad")) {
+            window.location.replace("https://apps.apple.com/tr/app/risale-i-nur-okuma-program%C4%B1/id6447762001?l=tr");
           } else {
             //cant be sure about device, so redirect to home page
             //window.location.replace("https://google.ro");
