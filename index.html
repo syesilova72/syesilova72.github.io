@@ -2,12 +2,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
+  <body onload = "welcomeFunction()" >
     <p style="text-align: center;"><strong><span style="font-size: 38px;">Risale-i Nur Okuma Programı</span></strong></p>
     <p style="text-align: left;"><strong><span style="font-size: 25px;">Uygulamamız cihazınızda y&uuml;kl&uuml; değil ise aşağıdan y&uuml;kleyin:</span></strong></p>
     <p style="text-align: left;"><br></p>
     <p style="text-align: left;"><strong><span style="font-size: 25px;">Android i&ccedil;in: <a href="https://play.google.com/store/apps/details?id=com.yukselis.okuma">Play Store&apos;dan Y&uuml;kleyin</a></span></strong></p>
     <p style="text-align: left;"><strong><span style="font-size: 25px;">iOS i&ccedil;in: <a href="https://apps.apple.com/tr/app/risale-i-nur-okuma-program%C4%B1/id6447762001?l=tr">App Store&apos;dan Y&uuml;kleyin</a></span></strong></p>
     <p><br></p>    
+
+    <script type="text/javascript">
+      let message = document.getElementById("message");
+      function welcomeFunction() {
+         alert( "welcome to the tutorialsPoint!" );
+         message.innerHTML = "Function executed successfully on page load."
+      }
+   </script>
   </body>
 </html>
